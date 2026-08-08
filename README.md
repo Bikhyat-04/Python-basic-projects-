@@ -1,7 +1,9 @@
 # 🐍 Python Mini Projects
 
+ABOUT:
 A collection of beginner-friendly Python projects covering games, utilities, and tools — great for practicing core Python concepts.
-
+These projects are part of my journey to learn Python and improve my programming skills.
+More projects are on the way.
 ---
 
 ## 📁 Projects
