@@ -19,6 +19,13 @@ def view_item():
 
     else:    
        for i in range(len(list)):
+            for j in range (0,len(list)-1-i):
+                if list[j]['item']>list[j+1]['item']:
+                    temp=list[j]
+                    list[j]=list[j+1]
+                    list[j+1]=temp
+
+       for i in range(len(list)):    
             print(f"{i+1}. Item:{list[i]['item']} -- Quantity:{list[i]['quantity']}\n")
                     
 def change_item():
